@@ -1,0 +1,60 @@
+/**
+ * @license
+ * SPDX-License-Identifier: Apache-2.0
+*/
+
+body {
+  background-color: #101118; /* Dark background */
+  color: #F0F0F0; /* Light text color */
+}
+
+/* Animation for gentle fade-in of components */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-fade-in {
+  animation: fade-in 0.6s ease-out forwards;
+}
+
+/* Animation for the main canvas image to zoom into focus */
+@keyframes zoom-in {
+  from {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+.animate-zoom-in {
+  animation: zoom-in 0.7s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+
+/* Custom scrollbar for a more integrated look */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #181A22;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #30323D;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4a4c5a;
+}
