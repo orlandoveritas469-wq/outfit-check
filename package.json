@@ -1,5 +1,5 @@
 {
   "scripts": {
-    "build": "mkdir public && cp -r App.tsx components index.css index.html index.tsx lib metadata.json services types.ts wardrobe.ts public/"
+    "build": "mkdir -p public && cp -r App.tsx components index.css index.html index.tsx lib metadata.json services types.ts wardrobe.ts public/"
   }
 }
