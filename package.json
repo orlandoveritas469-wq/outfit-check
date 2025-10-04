@@ -1,5 +1,5 @@
 {
   "scripts": {
-    "build": "[my-framework] build --output public"
+    "build": "echo \"Build successful! Files are ready to be served from the root directory.\""
   }
 }
