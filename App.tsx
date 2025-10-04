@@ -167,7 +167,7 @@ const App: React.FC = () => {
 
   const handleRedo = useCallback(() => {
     if (canRedo) {
-      setHistoryIndex(i => i - 1);
+      setHistoryIndex(i => i + 1);
     }
   }, [canRedo]);
 
