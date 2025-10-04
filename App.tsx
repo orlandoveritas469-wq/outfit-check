@@ -19,12 +19,33 @@ import Spinner from './components/Spinner';
 import ShareModal from './components/ShareModal';
 
 const POSE_INSTRUCTIONS = [
+  // Standard & Classic
   "Full frontal view, hands on hips",
   "Slightly turned, 3/4 view",
   "Side profile view",
-  "Jumping in the air, mid-action shot",
-  "Walking towards camera",
-  "Leaning against a wall",
+  "Back view, looking over shoulder",
+  "Leaning against a neutral wall",
+
+  // Walking & Action
+  "Walking towards camera, in mid-stride",
+  "Jumping in the air, joyful expression",
+  "Twirling, capturing fabric motion",
+  "Striding confidently, runway walk",
+  "A dynamic action pose, mid-movement",
+
+  // Sitting & Relaxed
+  "Sitting casually on a modern stool",
+  "Lounging gracefully on a chaise lounge",
+  "Sitting on the floor, cross-legged",
+  "Leaning forward, hands on knees",
+  "Crouching, athletic stance",
+
+  // Expressive & Editorial
+  "Confident power pose, one hand in pocket",
+  "Playful pose, hands in hair",
+  "Hands framing face, high-fashion look",
+  "Looking up, hopeful expression",
+  "Arms crossed, serious and direct look",
 ];
 
 interface HistoryState {
