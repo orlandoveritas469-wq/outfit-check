@@ -1,5 +1,5 @@
 {
   "scripts": {
-    "build": "echo \"Build successful! Files are ready to be served from the root directory.\""
+    "build": "mkdir public && cp -r App.tsx components index.css index.html index.tsx lib metadata.json services types.ts wardrobe.ts public/"
   }
 }
